@@ -1,0 +1,15 @@
+import numpy as np
+
+# Example: Fisher information metric for a univariate Gaussian
+
+def fisher_metric(mu, sigma):
+    # Parameters: theta = (mu, sigma)
+    g11 = 1 / sigma**2          # d/dmu part
+    g22 = 2 / sigma**2          # d/dsigma part
+    g12 = 0                     # independent parameters
+    return np.array([[g11, g12],
+                     [g12, g22]])
+
+if __name__ == "__main__":
+    g = fisher_metric(mu=0.0, sigma=1.0)
+    print("Fisher metric:\n", g)
