@@ -29,7 +29,7 @@ This repository contains documentation, diagrams, code examples, and supporting 
 ## 📄 Preprint
 
 **Zenodo DOI:**  
-https://doi.org/10.5281/zenodo.YOUR_DOI_HERE
+https://doi.org/10.5281/zenodo.17544854 (in Review)
 
 **PDF:**  
 Located in `/preprint/CIG_preprint.pdf`
