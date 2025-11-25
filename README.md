@@ -92,6 +92,27 @@ It is compatible with:
 
 ---
 
+## 🌌 CIG as a Unifying Framework Across Physics and Information
+
+CIG provides a coherent informational foundation from which geometric and
+dynamical structures may emerge. The appearance of a conformally Fisher metric,
+the derivation of Einstein-like dynamics through fluctuation-induced terms, and
+the interpretation of systems as informational agents collectively suggest that
+spacetime, gravity, and classical behavior could be secondary manifestations of
+deeper informational organization.
+
+Although the present formulation is classical, the architecture naturally
+extends toward quantum information geometry by replacing probability
+distributions with density matrices and adopting quantum Fisher metrics. This
+offers a potential pathway toward relating general relativity and quantum theory
+within a shared informational framework.
+
+In this sense, CIG outlines a unifying structural perspective in which physics,
+information, and integrated cognitive processes can be represented within a
+single mathematically explicit model—without making claims of completeness or
+finality.
+
+---
 
 ## 🧑‍🔬 Code Examples
 
