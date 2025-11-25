@@ -1,0 +1,66 @@
+# Emergent Geometry in CIG
+
+Geometry in CIG arises from informational dependence among agents.
+
+## 1. Statistical Manifold
+
+Agents are described by parameterized distributions \( p_\theta(x) \),
+forming a statistical manifold \( \Theta \).
+
+The Fisher–Rao metric
+
+\[
+g_{ij}(\theta) = 
+\mathbb{E}\left[
+\partial_i \log p_\theta(x) \, \partial_j \log p_\theta(x)
+\right]
+\]
+
+provides an intrinsic information-geometric structure.
+
+## 2. Informational Integration
+
+Total correlation \( I(\theta) \) measures global dependence among agents.
+
+The Hessian of \( I \) with respect to the Fisher metric generates curvature:
+
+\[
+K_{ij} = \mathrm{Hess}_g I.
+\]
+
+Integration acts as a geometric “source”.
+
+## 3. Correlation-Weighted Graph Laplacians
+
+Dependence structure defines weighted graphs.  
+Their Laplacians converge (in the continuum limit) to the Laplace–Beltrami operator
+of an emergent metric \( g^* \):
+
+\[
+L_\varepsilon f \to -c_d \, \Delta_{g^*} f.
+\]
+
+## 4. Conformal Metric
+
+Informational dependence modifies the geometry via a local conformal factor:
+
+\[
+g^*(x) = \lambda(x) \, g_{\mathrm{Fisher}}(\theta(x)).
+\]
+
+Where \( \lambda(x) \) contracts or expands space depending on the
+strength of informational coupling.
+
+## 5. Induced Gravity
+
+A fluctuation expansion of the CIG functional yields an
+**Einstein–Hilbert term**:
+
+\[
+S_{\text{eff}} \sim \int \sqrt{|g^*|} \, R[g^*] \, dx,
+\]
+
+showing that classical gravity emerges from informational fluctuations.
+
+CIG therefore provides a fully classical, information-geometric route to
+spacetime and gravitational dynamics.
