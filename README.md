@@ -101,11 +101,11 @@ the interpretation of systems as informational agents collectively suggest that
 spacetime, gravity, and classical behavior could be secondary manifestations of
 deeper informational organization.
 
-Although the present formulation is classical, the architecture naturally
-extends toward quantum information geometry by replacing probability
-distributions with density matrices and adopting quantum Fisher metrics. This
-offers a potential pathway toward relating general relativity and quantum theory
-within a shared informational framework.
+Although the present framework is classical, its architecture naturally extends
+toward quantum information geometry by replacing probability distributions with
+density matrices and adopting quantum Fisher metrics. This offers a potential
+pathway toward relating general relativity and quantum theory within a shared
+informational framework.
 
 In this sense, CIG outlines a unifying structural perspective in which physics,
 information, and integrated cognitive processes can be represented within a
