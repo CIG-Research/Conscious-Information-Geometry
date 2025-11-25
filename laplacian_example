@@ -1,0 +1,18 @@
+import numpy as np
+from sklearn.neighbors import kneighbors_graph
+
+# Simple example: build a graph Laplacian from points.
+
+def graph_laplacian(points, k=5):
+    W = kneighbors_graph(points, k, mode='distance', include_self=False)
+    W = 0.5 * (W + W.T)
+    D = np.diag(np.ravel(W.sum(axis=1)))
+    L = D - W
+    return L
+
+if __name__ == "__main__":
+    # Sample points on a 2D manifold
+    np.random.seed(0)
+    X = np.random.randn(200, 2)
+    L = graph_laplacian(X)
+    print("Graph Laplacian computed. Shape:", L.shape)
